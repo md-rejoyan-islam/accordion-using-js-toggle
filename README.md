@@ -5,3 +5,8 @@
 * CSS
 * Tailwind CSS
 * JavaScript
+
+### Using JavaScript
+* Toggle Event
+* ClassList.add()
+* ClassList.remove()
