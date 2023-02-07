@@ -1,6 +1,7 @@
 const section = document.querySelectorAll(".section");
+//accordion show hide
 section.forEach((section) => {
-  section.onclick = (e) => { 
+  section.onclick = (e) => {
     e.target.classList.toggle("active_accordion");
     e.target.classList.contains("active_accordion");
     const panel = e.target.nextElementSibling;
@@ -11,5 +12,3 @@ section.forEach((section) => {
     }
   };
 });
-
-
